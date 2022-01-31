@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -i '^[a,b;A,B]' /etc/passwd
+grep -i '^[a,b;A,B]' /etc/ssh/sshd_config

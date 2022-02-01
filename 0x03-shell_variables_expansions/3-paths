@@ -1,2 +1,2 @@
 #!/bin/bash
-printenv PATH | wc -l
+printenv $PATH | wc -l

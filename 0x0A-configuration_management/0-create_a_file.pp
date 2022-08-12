@@ -1,6 +1,5 @@
 # create a file in /tmp
-file {
-    '/tmp/school':
+file { '/tmp/school':
     permission => '0774', 
     owner => 'www-data',
     mode => 'wwww-data',

@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # install nginx web server
-sudo wget http://nginx.org/keys/nginx_signing.key
-sudo apt-key add nginx_signing.key
-cd /etc/apt
 sudo apt-get update
 sudo apt-get install nginx
 sudo start nginx.service
-sudo status nginx.service
+sudo curl 52.90.165.160
+sudo echo "Hello World!" > /var/www/html/index.nginx-debian.html
+sudo curl 52.90.165.160
+sudo service nginx restart

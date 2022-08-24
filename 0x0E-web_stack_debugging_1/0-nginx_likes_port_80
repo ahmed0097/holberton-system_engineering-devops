@@ -3,4 +3,4 @@
 rm /etc/nginx/sites-enabled/default
 ln -s /etc/nginx/sites-available/mysite.com /etc/nginx/sites-enabled/default
 nginx -t
-nginx -s reload
+service nginx  reload
